@@ -99,6 +99,10 @@ TidyAttr TIDY_CALL tidyAttrGetCHECKED( TidyNode tnod )
 {
     return tidyImplToAttr( attrGetCHECKED( tidyNodeToImpl(tnod) ) );
 }
+TidyAttr TIDY_CALL tidyAttrGetALLOWFULLSCREEN( TidyNode tnod )
+{
+    return tidyImplToAttr( attrGetALLOWFULLSCREEN( tidyNodeToImpl(tnod) ) );
+}
 TidyAttr TIDY_CALL tidyAttrGetLANG( TidyNode tnod )
 {
     return tidyImplToAttr( attrGetLANG( tidyNodeToImpl(tnod) ) );

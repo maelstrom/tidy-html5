@@ -112,6 +112,7 @@ static const Attribute attribute_defs [] =
   { TidyAttr_CHAROFF,           "charoff",               CH_LENGTH    }, 
   { TidyAttr_CHARSET,           "charset",               CH_CHARSET   }, 
   { TidyAttr_CHECKED,           "checked",               CH_BOOL      }, /* i.e. "checked" or absent */
+  { TidyAttr_ALLOWFULLSCREEN,   "allowfullscreen",       CH_BOOL      }, /* IFRAME */
   { TidyAttr_CITE,              "cite",                  CH_URL       }, 
   { TidyAttr_CLASS,             "class",                 CH_PCDATA    }, 
   { TidyAttr_CLASSID,           "classid",               CH_URL       }, 

@@ -498,6 +498,7 @@ typedef enum
   TidyAttr_CHAROFF,           /**< CHAROFF= */
   TidyAttr_CHARSET,           /**< CHARSET= */
   TidyAttr_CHECKED,           /**< CHECKED= */
+  TidyAttr_ALLOWFULLSCREEN,   /**< ALLOWFULLSCREEN= */
   TidyAttr_CITE,              /**< CITE= */
   TidyAttr_CLASS,             /**< CLASS= */
   TidyAttr_CLASSID,           /**< CLASSID= */

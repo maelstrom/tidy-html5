@@ -93,6 +93,10 @@ Bool TIDY_CALL tidyAttrIsCHECKED( TidyAttr tattr )
 {
     return attrIsCHECKED( tidyAttrToImpl(tattr) );
 }
+Bool TIDY_CALL tidyAttrIsALLOWFULLSCREEN( TidyAttr tattr )
+{
+    return attrIsALLOWFULLSCREEN( tidyAttrToImpl(tattr) );
+}
 Bool TIDY_CALL tidyAttrIsLANG( TidyAttr tattr )
 {
     return attrIsLANG( tidyAttrToImpl(tattr) );
